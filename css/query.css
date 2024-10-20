@@ -1,0 +1,492 @@
+@media (max-width: 1300px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .course_footer {
+    padding-top: 1.2rem;
+  }
+
+  .botmin {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1180px) {
+  .fixed_width {
+    width: 100rem !important;
+  }
+
+  .section_course {
+    width: 100rem;
+  }
+
+  .learning_item:nth-child(2) {
+    margin: 0 3.6rem;
+  }
+
+  .learning_item > img {
+    width: 100%;
+  }
+
+  .section_course {
+    padding: 4rem 2.4rem;
+  }
+
+  .course_item_content .description {
+    padding-right: 4rem;
+  }
+
+  .course_footer {
+    width: 94%;
+  }
+
+  .course_footer img {
+    width: 16rem;
+  }
+
+  .course_footer h3 {
+    font-size: 1.8rem;
+  }
+
+  .girl {
+    width: 20rem;
+  }
+  .group {
+    width: 40rem;
+  }
+  .semicircle {
+    width: 48rem;
+  }
+  .heroframe {
+    left: 30rem;
+  }
+}
+
+@media (max-width: 980px) {
+  html {
+    font-size: 50%;
+  }
+  .fixed_width {
+    width: 85rem !important;
+  }
+
+  .section_course {
+    width: 85rem;
+  }
+
+  .heading_primary {
+    font-size: 4.4rem;
+  }
+
+  .briefcase {
+    display: none;
+  }
+
+  .heading_secondary {
+    font-size: 3rem;
+  }
+
+  .company {
+    width: 10rem;
+  }
+
+  .category_header img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .device_nav_btns {
+    display: none;
+  }
+
+  .mobile_nav_btns {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+  }
+
+  .mobile_nav_btn {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    font-size: 3.6rem;
+  }
+
+  .fixed_width {
+    width: 70rem !important;
+  }
+
+  .section_course {
+    width: 70rem;
+  }
+
+  .category_item {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    padding-right: 24rem;
+  }
+
+  .heroframe {
+    top: -35rem;
+    left: 50rem;
+  }
+
+  .semicircle {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .girl {
+    left: 50%;
+    transform: translateX(-100%);
+  }
+  .group {
+    right: 50%;
+    transform: translateX(65%);
+  }
+
+  .letter {
+    width: 10rem;
+  }
+
+  .course_link {
+    display: none;
+  }
+
+  .course_container_device {
+    gap: 3rem;
+  }
+
+  .course_items_button p {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+
+  .copypen {
+    width: 10rem !important;
+  }
+
+  .course_footer .footer_btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.4rem;
+  }
+
+  .collaboration {
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    gap: 4.4rem;
+  }
+
+  .section_testimonials .display_flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .testimonial_header {
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .testimonial_header h2 {
+    margin-bottom: 1.2rem;
+  }
+  .testimonial_header .testimonial_btns {
+    margin-top: 0;
+    display: none;
+  }
+  .testimonial_item {
+    margin-top: 7.6rem;
+  }
+
+  .botmin {
+    display: none;
+  }
+  .botmax {
+    right: -16rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .footer_links {
+    gap: 0;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  .device_nav_btns {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255, 0.95);
+    z-index: 150;
+    gap: 3.6rem;
+    transform: translateY(-125%);
+    transition: all 0.5s ease-in;
+  }
+  .mobile_nav_btn {
+    z-index: 155;
+  }
+  .device_nav_btns select {
+    display: block;
+    font-size: 2.4rem;
+    padding: 0.8rem 2.4rem;
+    border: none;
+  }
+  .btn_nav {
+    font-size: 2.4rem;
+    padding: 1.2rem 3.6rem;
+  }
+
+  .search_box input {
+    font-size: 2.4rem;
+    padding: 1.2rem 2.4rem;
+    width: 44rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 44.5%;
+  }
+
+  .fixed_width {
+    width: 100% !important;
+  }
+
+  .section {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .section_course {
+    width: 100%;
+  }
+
+  .technology_item {
+    width: 100%;
+  }
+
+  .collaboration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .coll_company {
+    grid-template-columns: 1fr 1fr;
+  }
+  .coll_company img {
+    width: 12rem;
+  }
+  .code {
+    top: -9rem;
+    left: 5rem;
+  }
+
+  .learning_container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    margin: 0 3.6rem;
+    overflow: hidden;
+  }
+
+  .hero {
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+  }
+
+  .heroframe {
+    left: 36rem;
+  }
+
+  .course_item_content .description {
+    padding-right: 0;
+  }
+
+  .section_course {
+    border-radius: 0;
+  }
+
+  .course_footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 1.4rem;
+  }
+
+  .course_footer .footer_img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: flex-end;
+    justify-self: end;
+  }
+
+  .course_footer h3 {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+  }
+
+  .course_footer button {
+    width: 14rem;
+  }
+
+  .category_header img {
+    width: 6rem;
+  }
+
+  .category_container {
+    padding: 0 2.4rem;
+  }
+
+  .category_item {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header_box_logo select {
+    display: none;
+  }
+
+  .heading_primary {
+    font-size: 3rem;
+  }
+
+  .heading_secondary {
+    font-size: 2.4rem;
+  }
+
+  .category_header h4 {
+    font-size: 1.4rem;
+  }
+
+  .code {
+    width: 10rem;
+    top: -5rem;
+  }
+
+  .learning_item {
+    width: 85%;
+  }
+
+  .hero_list li {
+    font-size: 1.2rem;
+  }
+
+  .hero_imgs {
+    height: 300px;
+  }
+
+  .heroframe {
+    width: 16rem;
+    left: 30rem;
+    top: -30rem;
+  }
+
+  .course_container_device {
+    display: none;
+  }
+  .course_container_mobile {
+    display: block;
+  }
+
+  .course_items_button_active {
+    background: none;
+    padding: 0;
+  }
+
+  .course_item_mobile_active {
+    margin-bottom: 4rem;
+    padding: 2rem;
+    transition: all 0.5s;
+    background: rgba(163, 228, 123, 0.2);
+    border-radius: 1.2rem;
+  }
+
+  .course_items_button p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .heading_primary {
+    font-size: 3.6rem;
+    padding-right: 12rem !important;
+  }
+
+  .coll_content {
+    padding: 0 2rem;
+  }
+
+  .learning_item {
+    width: 275px;
+  }
+
+  .learning_link {
+    display: none;
+  }
+
+  .hero_imgs {
+    height: 224px;
+  }
+  .semicircle {
+    width: 35rem;
+  }
+  .girl {
+    width: 15rem;
+  }
+  .group {
+    width: 30rem;
+  }
+
+  .botmax {
+    width: 8rem;
+  }
+  .footer_links {
+    margin-right: 9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .heroframe {
+    width: 10rem;
+  }
+  .coll_content {
+    padding: 0 6rem;
+  }
+
+  .tech_rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .category_header img {
+    width: 5rem;
+  }
+
+  .category_header h4 {
+    font-size: 1.2rem;
+  }
+}

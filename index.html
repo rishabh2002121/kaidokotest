@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/query.css" />
+
+    <!-- Webpage Title -->
+    <title>Sample Web Page</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header_box_logo display_flex">
+        <a href="#"
+          ><img src="img/header/logo.png" alt="Website Logo" class="logo"
+        /></a>
+
+        <select>
+          <option>Courses</option>
+          <option>Web Dev</option>
+          <option>AI & ML</option>
+          <option>Dev Ops</option>
+        </select>
+      </div>
+
+      <div class="header_box_btns display_flex">
+        <div class="device_nav_btns display_flex">
+          <div class="search_box display_flex">
+            <label for="search">
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+            <input
+              id="search"
+              type="search"
+              placeholder="Search for a course or category"
+            />
+          </div>
+          <select class="hidden">
+            <option>Courses</option>
+            <option>Web Dev</option>
+            <option>AI & ML</option>
+            <option>Dev Ops</option>
+          </select>
+          <button class="btn_nav btn_nav_login">Login</button>
+          <button class="btn_nav btn_nav_register">Register</button>
+        </div>
+
+        <div class="mobile_nav_btns hidden">
+          <a href="#">
+            <img
+              src="img/header/header-bot.png"
+              alt="Nav Bot"
+              class="nav_bot"
+            />
+          </a>
+          <button class="mobile_nav_btn mobile_nav_btn_menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+          <button class="mobile_nav_btn mobile_nav_btn_close hidden">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="section section_hero">
+      <div class="fixed_width display_flex hero">
+        <div class="hero_content">
+          <h1 class="heading_primary">
+            Skyrocket your
+            <span class="highlight">career towards excellence</span>
+          </h1>
+          <ul class="hero_list">
+            <li>
+              <span class="hero_icon"><ion-icon name="book"></ion-icon></span
+              >Flexible Learning
+            </li>
+            <li>
+              <span class="hero_icon"><ion-icon name="school"></ion-icon></span
+              >Interactive Learning Experience
+            </li>
+            <li>
+              <span class="hero_icon"
+                ><ion-icon name="briefcase"></ion-icon></span
+              >Career Opportunities
+            </li>
+          </ul>
+          <img src="img/hero/briefcase.png" alt="Briefcase" class="briefcase" />
+        </div>
+        <div class="hero_imgs">
+          <img src="img/hero/heroframe.png" alt="Frame" class="heroframe" />
+          <img src="img/hero/girl.png" alt="Girl" class="girl" />
+          <img src="img/hero/group.png" alt="Group" class="group" />
+          <img
+            src="img/hero/semicircle.png"
+            alt="Semicircle"
+            class="semicircle"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Course -->
+    <section class="section section_course">
+      <div class="fixed_width">
+        <div class="course_header">
+          <h2 class="heading_secondary">Top Selling Courses</h2>
+          <a href="#" class="course_link">View All Courses &rightarrow;</a>
+        </div>
+        <div class="course_container">
+          <div class="course_container_device">
+            <div class="course_container_device_button">
+              <div class="course_items_button course_items_button-1">
+                <img src="img/course/course1.png" alt="course 1" />
+                <p>
+                  Bitcoin Technology and <br />
+                  Applications
+                </p>
+              </div>
+
+              <div
+                class="course_items_button course_items_button-2 course_items_button_active"
+              >
+                <img src="img/course/course2.png" alt="course 2" />
+                <p>Course on Computer <br />Concepts</p>
+              </div>
+
+              <div class="course_items_button course_items_button-3">
+                <img src="img/course/course3.png" alt="course 3" />
+                <p>Data Analystics & Machine <br />Learning (Python)</p>
+              </div>
+            </div>
+
+            <div class="course_container_device_content">
+              <div class="course_item_content course_item_content-1">
+                <p class="description">
+                  Cryptocurrency Investment Course 2024: Fund your Retirement!
+                  Go from Beginner to Advanced in Cryptocurrency, gain financial
+                  freedom and escape recession in today's economic collapse! Be
+                  able to work with text files
+                </p>
+                <p class="course_teacher">
+                  <strong>Teacher: </strong>Mr. Mike Anthony
+                </p>
+                <div class="course_rating">
+                  <img src="img/learning/rating2.png" alt="Rating" />
+                  <p>4.1 by 1,254 students</p>
+                </div>
+                <div class="course_pricing">
+                  <span class="theprice">₹799</span>
+                  <span class="tax">(inclusive of taxes)</span>
+                </div>
+                <div class="course_link_box">
+                  <a href="#">View Details &rightarrow;</a>
+                  <a href="#">Wishlist Courses &rightarrow;</a>
+                </div>
+              </div>
+
+              <div
+                class="course_item_content course_item_content-2 course_item_content_active"
+              >
+                <p class="description">
+                  Discover the essentials of computing with our "Course on
+                  Computer Concepts". From hardware to programming languages,
+                  delve into the fundamentals and unlock the keys to navigating
+                  the digital world confidently.
+                </p>
+                <p class="course_teacher">
+                  <strong>Teacher: </strong>Mrs. Bhawna
+                </p>
+                <div class="course_rating">
+                  <img src="img/learning/rating1.png" alt="Rating" />
+                  <p>4.5 by 1,765 students</p>
+                </div>
+                <div class="course_pricing">
+                  <span class="theprice">₹599</span>
+                  <span class="tax">(inclusive of taxes)</span>
+                </div>
+                <div class="course_link_box">
+                  <a href="#">View Details &rightarrow;</a>
+                  <a href="#">Wishlist Courses &rightarrow;</a>
+                </div>
+              </div>
+
+              <div class="course_item_content course_item_content-3">
+                <p class="description">
+                  The course provides the complete preparation you need to
+                  become a data analyst. Python programming, NumPy, pandas, data
+                  preparation - data collection, data cleaning, data
+                  preprocessing, data visualization; data analysis.
+                </p>
+                <p class="course_teacher">
+                  <strong>Teacher: </strong>Dr. Angela Yu
+                </p>
+                <div class="course_rating">
+                  <img src="img/learning/rating3.png" alt="Rating" />
+                  <p>4.4 by 789 students</p>
+                </div>
+                <div class="course_pricing">
+                  <span class="theprice">₹799</span>
+                  <span class="tax">(exclusive of taxes)</span>
+                </div>
+                <div class="course_link_box">
+                  <a href="#">View Details &rightarrow;</a>
+                  <a href="#">Wishlist Courses &rightarrow;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course_container_mobile hidden">
+            <div class="course_item_mobile mobile-1">
+              <div class="course_item_mobile_header">
+                <div class="course_items_button course_items_button-11">
+                  <img src="img/course/course1.png" alt="course 1" />
+                  <p>
+                    Bitcoin Technology and <br />
+                    Applications
+                  </p>
+                </div>
+              </div>
+
+              <div class="course_item_mobile_content">
+                <div class="course_item_content course_item_content-11">
+                  <p class="description">
+                    Cryptocurrency Investment Course 2024: Fund your Retirement!
+                    Go from Beginner to Advanced in Cryptocurrency, gain
+                    financial freedom and escape recession in today's economic
+                    collapse! Be able to work with text files
+                  </p>
+                  <p class="course_teacher">
+                    <strong>Teacher: </strong>Mr. Mike Anthony
+                  </p>
+                  <div class="course_rating">
+                    <img src="img/learning/rating2.png" alt="Rating" />
+                    <p>4.1 by 1,254 students</p>
+                  </div>
+                  <div class="course_pricing">
+                    <span class="theprice">₹799</span>
+                    <span class="tax">(inclusive of taxes)</span>
+                  </div>
+                  <div class="course_link_box">
+                    <a href="#">View Details &rightarrow;</a>
+                    <a href="#">Wishlist Courses &rightarrow;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="course_item_mobile mobile-2 course_item_mobile_active">
+              <div class="course_item_mobile_header">
+                <div
+                  class="course_items_button course_items_button-22 course_items_button_active"
+                >
+                  <img src="img/course/course2.png" alt="course 2" />
+                  <p>Course on Computer <br />Concepts</p>
+                </div>
+              </div>
+
+              <div class="course_item_mobile_content">
+                <div
+                  class="course_item_content course_item_content-22 course_item_content_active"
+                >
+                  <p class="description">
+                    Discover the essentials of computing with our "Course on
+                    Computer Concepts". From hardware to programming languages,
+                    delve into the fundamentals and unlock the keys to
+                    navigating the digital world confidently.
+                  </p>
+                  <p class="course_teacher">
+                    <strong>Teacher: </strong>Mrs. Bhawna
+                  </p>
+                  <div class="course_rating">
+                    <img src="img/learning/rating1.png" alt="Rating" />
+                    <p>4.5 by 1,765 students</p>
+                  </div>
+                  <div class="course_pricing">
+                    <span class="theprice">₹599</span>
+                    <span class="tax">(inclusive of taxes)</span>
+                  </div>
+                  <div class="course_link_box">
+                    <a href="#">View Details &rightarrow;</a>
+                    <a href="#">Wishlist Courses &rightarrow;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="course_item_mobile mobile-3">
+              <div class="course_item_mobile_header">
+                <div class="course_items_button course_items_button-33">
+                  <img src="img/course/course3.png" alt="course 3" />
+                  <p>Data Analystics & Machine <br />Learning (Python)</p>
+                </div>
+              </div>
+
+              <div class="course_item_mobile_content">
+                <div class="course_item_content course_item_content-33">
+                  <p class="description">
+                    The course provides the complete preparation you need to
+                    become a data analyst. Python programming, NumPy, pandas,
+                    data preparation - data collection, data cleaning, data
+                    preprocessing, data visualization; data analysis.
+                  </p>
+                  <p class="course_teacher">
+                    <strong>Teacher: </strong>Dr. Angela Yu
+                  </p>
+                  <div class="course_rating">
+                    <img src="img/learning/rating3.png" alt="Rating" />
+                    <p>4.4 by 789 students</p>
+                  </div>
+                  <div class="course_pricing">
+                    <span class="theprice">₹799</span>
+                    <span class="tax">(exclusive of taxes)</span>
+                  </div>
+                  <div class="course_link_box">
+                    <a href="#">View Details &rightarrow;</a>
+                    <a href="#">Wishlist Courses &rightarrow;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course_footer">
+          <div class="footer_img">
+            <img src="img/course/base.png" alt="Base" class="base" />
+            <img src="img/course/illusration.png" alt="Base" class="copypen" />
+          </div>
+          <h3>
+            Take a practice quiz designed <br />
+            to sharpen your skills
+          </h3>
+          <button class="footer_btn">Take Quiz &rightarrow;</button>
+        </div>
+      </div>
+      <img src="img/course/letter.png" alt="Letter" class="letter" />
+    </section>
+
+    <!-- Category -->
+    <section class="section section_category section_reveal">
+      <div class="fixed_width">
+        <div class="category_header">
+          <h2 class="heading_secondary">Browse by Categories</h2>
+          <h4>Select the topics below to view corresponding courses.</h4>
+          <img src="img/category/art.png" alt="Category Bot" />
+        </div>
+        <div class="category_container">
+          <div class="category_item">JavaScript</div>
+          <div class="category_item">Web Development</div>
+          <div class="category_item">Node.js</div>
+          <div class="category_item">HTML & CSS</div>
+          <div class="category_item">Product Design</div>
+          <div class="category_item">React JS</div>
+          <div class="category_item">Unreal Engine</div>
+          <div class="category_item">Design Theory</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology -->
+    <section class="section section_technology section_reveal">
+      <div class="fixed_width">
+        <div class="technology_header display_flex">
+          <h2 class="heading_secondary">Top Selling in Technology</h2>
+          <div class="technology_btns display_flex">
+            <button class="technology_btn_left">&leftarrow;</button>
+            <button class="technology_btn_right">&rightarrow;</button>
+          </div>
+        </div>
+        <div class="technology_container display_flex">
+          <div class="technology_item">
+            <img src="img/technology/card1.png" alt="Item" />
+            <div class="tech_content">
+              <h4>
+                Internet of Thing and its <br />Applications - Self Placed
+              </h4>
+              <div class="tech_rating">
+                <img src="img/technology/rating1.png" alt="Rating" />
+                <p>4.0 by 615 students</p>
+              </div>
+              <p class="tech_teacher">Teacher: Mrs.Anbumalar Pandian</p>
+              <div class="for_more">
+                <span class="pricing">₹399</span>
+                <span class="more">&rightarrow;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="technology_item">
+            <img src="img/technology/card2.png" alt="Item" />
+            <div class="tech_content">
+              <h4>
+                Certificate course in Electric <br />
+                Vehicle Design
+              </h4>
+              <div class="tech_rating">
+                <img src="img/technology/rating2.png" alt="Rating" />
+                <p>4.1 by 416 students</p>
+              </div>
+              <p class="tech_teacher">Teacher: Mrs.Anbumalar Pandian</p>
+              <div class="for_more">
+                <span class="pricing">₹699</span>
+                <span class="more">&rightarrow;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="technology_item">
+            <img src="img/technology/card3.png" alt="Item" />
+            <div class="tech_content">
+              <h4>
+                100 Days of Python for <br />
+                Beginners
+              </h4>
+              <div class="tech_rating">
+                <img src="img/technology/rating3.png" alt="Rating" />
+                <p>3.9 by 623 students</p>
+              </div>
+              <p class="tech_teacher">Teacher: Abdul Parrikar</p>
+              <div class="for_more">
+                <span class="pricing">₹499</span>
+                <span class="more">&rightarrow;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collaboration -->
+    <section class="section section_collaboration section_reveal">
+      <div class="fixed_width collaboration display_flex">
+        <div class="coll_content">
+          <h2 class="heading_secondary">Our Collaborations</h2>
+          <p class="coll_description">
+            We've partnered with industry leaders to deliver courses that not
+            only educate but also immerse you in real world scenarios, fostering
+            your career growth
+          </p>
+        </div>
+        <div class="coll_company">
+          <img src="img/collaboration/google.png" alt="MNC" class="company" />
+          <img src="img/collaboration/micro.png" alt="MNC" class="company" />
+          <img src="img/collaboration/imb.png" alt="MNC" class="company" />
+          <img src="img/collaboration/adobe.png" alt="MNC" class="company" />
+          <img src="img/collaboration/amazon.png" alt="MNC" class="company" />
+        </div>
+        <img src="img/collaboration/code.png" alt="Code" class="code" />
+      </div>
+    </section>
+
+    <!-- Learning -->
+    <section class="section section_learning section_reveal">
+      <div class="fixed_width">
+        <div class="learning_header display_flex">
+          <h2 class="heading_secondary">Blended Learning</h2>
+          <div class="box display_flex">
+            <a href="#" class="learning_link">View All Courses</a>
+            <div class="learning_btns display_flex">
+              <button class="learning_btn_left">&leftarrow;</button>
+              <button class="learning_btn_right">&rightarrow;</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="learning_container display_flex">
+          <div class="learning_item">
+            <img src="img/learning/card1.png" alt="Item Card" />
+            <h4 class="card_title">
+              PC Program in Data <br />
+              Engineering
+            </h4>
+            <div class="card_rating">
+              <img src="img/learning/rating1.png" alt="Stars" />
+              <p>4.5 by 1,724 students</p>
+            </div>
+            <p class="teacher">Teacher: Mr. Balamurugan N & Harish R</p>
+            <div class="for_more">
+              <span class="pricing">₹499</span>
+              <span class="more">&rightarrow;</span>
+            </div>
+          </div>
+
+          <div class="learning_item">
+            <img src="img/learning/card2.png" alt="Item Card" />
+            <h4 class="card_title">Certificate Course in AWS</h4>
+            <div class="card_rating">
+              <img src="img/learning/rating2.png" alt="Stars" />
+              <p>4.0 by 615 students</p>
+            </div>
+            <p class="teacher">
+              Teacher: Mr. Yatish Kumar Appu RP (Cloud <br />
+              Computing)
+            </p>
+            <div class="for_more">
+              <span class="pricing">₹499</span>
+              <span class="more">&rightarrow;</span>
+            </div>
+          </div>
+
+          <div class="learning_item">
+            <img src="img/learning/card3.png" alt="Item Card" />
+            <h4 class="card_title">
+              Certified Full Stack Web Developer <br />
+              Feb 2024 Summary
+            </h4>
+            <div class="card_rating">
+              <img src="img/learning/rating3.png" alt="Stars" />
+              <p>3.9 by 917 students</p>
+            </div>
+            <p class="teacher">Teacher: Mahalakshmi Pratibha</p>
+            <div class="for_more">
+              <span class="pricing">₹699</span>
+              <span class="more">&rightarrow;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section_testimonials section_reveal">
+      <div class="fixed_width display_flex">
+        <div class="testimonial_header">
+          <h2 class="heading_secondary">Testimonials</h2>
+          <div class="testimonial_rating">
+            <img src="img/testimonial/rating.png" alt="Rating" />
+            <p>4.5 by 1,724 users</p>
+          </div>
+          <div class="testimonial_btns">
+            <button class="testimonial_btn_left">&leftarrow;</button>
+            <button class="testimonial_btn_right">&rightarrow;</button>
+          </div>
+        </div>
+
+        <div class="testimonial_container display_flex">
+          <div class="testimonial_item">
+            <p class="para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+              veritatis hic et. In reiciendis placeat at, sint aut atque, saepe
+              quibusdam voluptate beatae nesciunt temporibus. Itaque architecto
+              soluta voluptas ducimus.
+            </p>
+            <div class="author">
+              <img class="img1" src="img/testimonial/simran.png" alt="Pic" />
+              <div class="author_intro">
+                <p class="name">Simran Kalra</p>
+                <p class="passion">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial_item">
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur, et quod, corporis rohan quidem error quisquam at
+              explicabo, illum aliquid assumenda consequuntur iure facilis
+              accusantium mollitia? Voluptatibus.
+            </p>
+            <div class="author">
+              <img class="img2" src="img/testimonial/suhani.png" alt="Pic" />
+              <div class="author_intro">
+                <p class="name">Suhani Jain</p>
+                <p class="passion">Student</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/testimonial/pencil.png" class="pencil" alt="Pencil" />
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section_reveal">
+      <div class="fixed_width display_flex footer">
+        <div class="footer_contacts">
+          <h2 class="heading_secondary">Contact Us</h2>
+          <address>
+            Plot No.12, ABC Pocket, Sector-08, Uttam Nagar,<br />New Delhi -
+            110058
+          </address>
+          <ul class="contact_list">
+            <li>
+              <span class="icon"><ion-icon name="call"></ion-icon></span
+              ><a href="tel:9876543210">(+91) 9876543210</a>
+            </li>
+            <li>
+              <span class="icon"><ion-icon name="mail"></ion-icon></span
+              ><a href="mailto:contactedu@gmail.com">contactedu@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_links display_flex">
+          <div>
+            <h2 class="heading_secondary">Social Media</h2>
+            <div class="social_media">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+          </div>
+          <img src="img/footer/botmax.png" alt="Bot Max" class="botmax" />
+          <img src="img/footer/botmin.png" alt="Bot Min" class="botmin" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- Ionicons Package -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Main JS File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
